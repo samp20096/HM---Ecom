@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="z2f5OyVMEMMWuo19df2Z">
+    <mxGraphModel dx="744" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqq4BcrtZ1NTnjN7aCxr-2" target="nqq4BcrtZ1NTnjN7aCxr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-2" value="start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqq4BcrtZ1NTnjN7aCxr-4" target="nqq4BcrtZ1NTnjN7aCxr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-4" value="x (int)&lt;div&gt;&quot;First number&quot;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="180" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqq4BcrtZ1NTnjN7aCxr-6" target="nqq4BcrtZ1NTnjN7aCxr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-6" value="y (int)&lt;div&gt;&quot;Scond number&quot;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqq4BcrtZ1NTnjN7aCxr-7" target="nqq4BcrtZ1NTnjN7aCxr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-7" value="&quot;Total added of x and y&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nqq4BcrtZ1NTnjN7aCxr-8" target="nqq4BcrtZ1NTnjN7aCxr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nqq4BcrtZ1NTnjN7aCxr-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;Total multiplied of x and y&quot;&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

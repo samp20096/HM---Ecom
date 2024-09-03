@@ -1,0 +1,65 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="21WqB0-0v9m8hYwzr7SS">
+    <mxGraphModel dx="532" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-1" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnQXAfxPEcMT67Z15OVC-2" target="AnQXAfxPEcMT67Z15OVC-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-2" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnQXAfxPEcMT67Z15OVC-3" target="AnQXAfxPEcMT67Z15OVC-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-3" value="num_1: (int)&lt;div&gt;&quot;First number&quot;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="140" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnQXAfxPEcMT67Z15OVC-5" target="AnQXAfxPEcMT67Z15OVC-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-5" value="num_2: (int)&lt;div&gt;&quot;Second number&quot;&lt;/div&gt;" style="shape=card;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="270" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnQXAfxPEcMT67Z15OVC-6" target="AnQXAfxPEcMT67Z15OVC-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="AnQXAfxPEcMT67Z15OVC-6" target="AnQXAfxPEcMT67Z15OVC-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-6" value="&quot;What number is bigger? num_1 or num_2?&quot;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="380" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-7" value="if num_1 &amp;gt; num_02&lt;div&gt;&quot;num_1 Is the bigger number&quot;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-10" value="if num_2 &amp;gt; num_01&lt;div&gt;&quot;num_2 is the bigger number&quot;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-14" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="560" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-16" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.578;exitY=0.798;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AnQXAfxPEcMT67Z15OVC-7" target="AnQXAfxPEcMT67Z15OVC-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="420" as="sourcePoint" />
+            <mxPoint x="390" y="370" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AnQXAfxPEcMT67Z15OVC-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.117;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AnQXAfxPEcMT67Z15OVC-10" target="AnQXAfxPEcMT67Z15OVC-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="420" as="sourcePoint" />
+            <mxPoint x="410" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
