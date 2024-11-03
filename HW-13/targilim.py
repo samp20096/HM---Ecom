@@ -8,7 +8,6 @@
 #
 # print(f"Total full classes: {full_class}\n"
 #       f"Total last class amount of students left: {students_left}")
-from itertools import count
 
 # b.
 # while True:
