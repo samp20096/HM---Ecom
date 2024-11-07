@@ -256,16 +256,52 @@
 #     count *= num1
 # print(count)
 
-# 6. need to continue
-# XXXX
+# 6.
+# x: int = int(input("Number (0 - 9999): "))
+# y: int = int(input("Number in number? "))
+#
+# ahadot: int = x % 10
+# asarot: int = (x % 100) // 10
+# meot: int = (x % 1000) // 100
+# alafim: int = x // 1000
+#
+# if ahadot == y or asarot == y or meot == y or alafim == y:
+#     print(True)
+# else:
+#     print(False)
 
 #7.
-# XXXX
+# num1: int = int(input("Number: "))
+# num2: int = int(input("Number2: "))
+# div_big = None
+#
+# if num1 > num2:
+#     while True:
+#         for i in range(num1, 0, -1):
+#             if num1 % i == 0:
+#                 if num2 % i == 0:
+#                     if div_big is None or div_big < i:
+#                         div_big = i
+#         else:
+#             print(div_big)
+#             break
+# else:
+#     while True:
+#         for i in range(num2, 0, -1):
+#             if num2 % i == 0:
+#                 if num1 % i == 0:
+#                     if div_big is None or div_big < i:
+#                         div_big = i
+#         else:
+#             print(div_big)
+#             break
+
 
 # 8.
 # number: int = int(input("Number: "))
-# print("Prime" if all(number & i != 0 for i in range(2, number)) else "Not prime")
-# Done wrong couldn't find a solution XXXXX
+# print("Prime" if all(number % i != 0 for i in range(2, number)) else "Not prime")
+
+
 
 # לולאות מורכבות:
 # 1.
@@ -295,4 +331,65 @@
 #           f"Max temp: {max(temp)}")
 
 # 2. need to finish
-# XXXXX
+# country: list[int] = [] # saving to get up to 44 country's
+# vote_count: list[int] = [0] * 4
+# list_options: list[str] = ["For", "Against", "Avoid", "Veto"]
+# vote_object: str = input("What object we discuss today? ")
+#
+# while vote_count[3] < 1:
+#     print(f"{vote_object}\n"
+#           f"Your vote: \n"
+#           f"1. {list_options[0]}\n"
+#           f"2. {list_options[1]}\n"
+#           f"3. {list_options[2]}\n"
+#           f"4. {list_options[3]}")
+#     try:
+#         vote: int = int(input("Your vote: "))
+#     except ValueError:
+#         print("Input is not int, try again.")
+#         continue
+#     if 0 >= vote >= 5:
+#         continue
+#     country.append(vote)
+#     if vote == 1:
+#         vote_count[0] += 1
+#     if vote == 2:
+#         vote_count[1] += 1
+#     if vote == 3:
+#         vote_count[2] += 1
+#     if vote == 4:
+#         print(f"Veto country serial number: {country.index(4)}")
+#         break
+#     if len(country) == 44:
+#         print(f"Total for: {vote_count[0]}\n"
+#               f"Total against: {vote_count[1]}\n"
+#               f"Total avoid: {vote_count[2]}\n"
+#               f"{f"First vote for: {country.index(1)}" if vote_count[0] > 0 else ""}\n"
+#               f"{f"Last vote against: {country.index(2, country[-1])}" if vote_count[1] > 0 else ""}")
+#         break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
