@@ -330,7 +330,7 @@
 #           f"Min temp: {min(temp)}\n"
 #           f"Max temp: {max(temp)}")
 
-# 2. need to finish
+# 2. 
 # country: list[int] = [] # saving to get up to 44 country's
 # vote_count: list[int] = [0] * 4
 # list_options: list[str] = ["For", "Against", "Avoid", "Veto"]
