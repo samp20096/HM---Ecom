@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="sql_hw1.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="506"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="shopping" custom_title="0" dock_id="1" table="4,8:mainshopping"/><dock_state state="000000ff00000000fd00000001000000020000024900000213fc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000000002490000011800ffffff000002490000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="shopping" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="29"/><column index="2" value="78"/><column index="3" value="51"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="q1*">-- creats a new table by the name 'shopping' with the valuse of 
+-- {'id': shows the number soerted from lowest to highest}
+-- {'name': value of text}
+-- {'amount': value of int's}
+CREATE TABLE shopping (id INTEGER PRIMARY KEY, name TEXT, amount
+INTEGER);
+
+-- deleteing the table 'shopping'
+DROP TABLE shopping</sql><sql name="q2*">-- ALTER TABLE shopping rename to shop
+ALTER TABLE shop rename to shopping
+
+-- alter with the command RENAME TO  is changing the name of the table</sql><sql name="q3*">INSERT INTO shopping VALUES (1, 'Avokado', 5);
+INSERT INTO shopping VALUES (2, 'Milk', 2);
+INSERT INTO shopping VALUES (3, 'Bread', 3);
+INSERT INTO shopping VALUES (4, 'Chocolate', 8);
+INSERT INTO shopping VALUES (5, 'Bamba', 5);
+INSERT INTO shopping VALUES (6, 'Orange', 10);
+
+--insertin to table 'shopping' values</sql><sql name="q4*">select * from shopping
+
+-- seects the choosen table and printing/displaying it in the 'Excute SQL' </sql><sql name="q5*">SELECT id, name FROM shopping
+
+-- select's a choosen columns to print/display in 'Excute SQL' </sql><sql name="q6*">-- will display the rows the have the amount bigger then 5
+SELECT * FROM shopping WHERE amount &gt; 5;
+-- will display the rows the have the amount equals to 2
+SELECT * FROM shopping WHERE amount = 2;
+-- will display the rows the have the name 'bamba'
+SELECT * FROM shopping WHERE name LIKE 'Bamba'</sql><current_tab id="5"/></tab_sql></sqlb_project>
