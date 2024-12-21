@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="suotion_7_to_16.db" readonly="0" foreign_keys="0" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="546"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="shopping" custom_title="0" dock_id="2" table="4,8:mainshopping"/><dock_state state="000000ff00000000fd0000000100000002000002f2000002d6fc0100000002fb000000160064006f0063006b00420072006f00770073006500310100000000000002f20000000000000000fb000000160064006f0063006b00420072006f00770073006500320100000000000002f20000011800ffffff000002580000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="books" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="29"/><column index="2" value="39"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="shopping" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="29"/><column index="2" value="78"/><column index="3" value="51"/><column index="4" value="50"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="q7*">
+DELETE from shopping WHERE name like 'Orange';
+
+-- deleting the row of 'orange' from 'shopping' table</sql><sql name="q8*">UPDATE shopping SET name = 'Bisli' WHERE name LIKE 'Bamba';
+-- updating the name in row of 'bamba' to 'bisli'
+
+
+UPDATE shopping SET amount=1 WHERE name LIKE 'Milk'
+-- updating the amount of 'milk' from 2 to 1</sql><sql name="q9*">ALTER TABLE shopping ADD COLUMN maavar
+-- adding a column of 'maavar' to the 'shopping' table</sql><sql name="q10*">UPDATE shopping SET maavar=6 WHERE id=1;
+UPDATE shopping SET maavar=3 WHERE id=2;
+UPDATE shopping SET maavar=12 WHERE id=3;
+UPDATE shopping SET maavar=8 WHERE id=4;
+UPDATE shopping SET maavar=5 WHERE id=5;
+
+-- updating the column of 'maavar' with each product location in the store
+-- by the id of the product</sql><sql name="q11*">SELECT * FROM shopping WHERE amount &gt; 1 AND maavar &gt; 5;
+-- showing the rows of the given conditions where the amount is bigger then 1 and in maavar 6 and abouve
+
+SELECT * FROM shopping WHERE maavar BETWEEN 3 AND 5
+-- returning the rows that are between maavar 3 and 5
+</sql><sql name="q12*">SELECT * FROM shopping ORDER BY maavar;
+SELECT * FROM shopping ORDER BY maavar DESC
+
+-- returning the 'shopping' table orderd by 'maavar' column, and DESC is returning it reversed</sql><sql name="q13*">CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT);
+INSERT INTO books VALUES (1, 'SQL PROGRAMMING');
+INSERT INTO books VALUES (2, 'CSHARP PROGRAMMING');
+DELETE FROM books;
+
+-- creating a table of 'books' with the rows of 'SQL PROGRAMMING' and 'CSHARP PROGRAMMING'
+-- then deleting all the rows that in 'books'</sql><sql name="q14*">-- returning the total amount of rows in 'shopping'
+SELECT COUNT(*)from shopping; 
+-- returning the highest amount in 'amount'
+SELECT MAX(amount) from shopping;
+-- returning the average amount in 'amount'
+SELECT AVG(amount) from shopping;
+-- returning the lowest amount in 'amount'
+SELECT MIN(amount) from shopping;</sql><sql name="q15*">-- inserting the given values to 'shopping'
+INSERT INTO shopping VALUES (6, 'Onions', 3, 6);
+INSERT INTO shopping VALUES (7, 'Orio', 1, 8);
+-- retunrning the amount of products in every 'maavar' 
+Select maavar, COUNT(*)FROM shopping GROUP BY maavar;</sql><sql name="q16*">SELECT id AS &quot;SECRET&quot;, name, amount, maavar FROM shopping
+-- returning the 'id' as &quot;SECRET&quot; and the given columns from 'shopping'</sql><sql name="q17*">Select maavar, COUNT(*)FROM shopping GROUP BY maavar HAVING COUNT(*)&gt;1
+-- returning the amount that bigger then 1 product from every 'maavar'</sql><current_tab id="10"/></tab_sql></sqlb_project>
